@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página If</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1>Descomplicando o IF</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Conceito</a></li>
+            <li><a href="resolucao.html">Resolução</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="conceito">
+            <h1>Conceito</h1>
+            <p>Os comandos de códigos condicionais alteram o modo como um trecho de código se comporta com base em certas condições. Para situações assim, você pode usar o comando <strong>if</strong>.</p>
+            <p>O comando if é conhecido como o comando de tomada de decisões, pois ela faz escolhas dentro do código de acordo com determinadas condições.</p>
+            <div class="alinhamento">
+                <img src="imagens/fluxograma-if.webp" alt="Imagem de um fluxograma mostrando como funciona a lógica do comando IF.">
+            </div>
+        </div>
+
+        <div class="conceito">
+            <h1>Como funciona?</h1>
+            <p>Em sua construção, escrevemos o comando if, em seguida abrimos parênteses (o que estiver dentro dos parênteses representará a condição de acionamento) e logo após abrimos as chaves (o que estiver dentro dessas chaves poderá executado).</p><br>
+            <p class="exemplo-codigo">Exemplo: <br>
+
+                If (condição de acionamento) { <br>
+            
+                //Conteúdo que será executado se a condição for verdadeira <br>
+            
+                } 
+            </p>
+            <br>
+            <p>
+                Para a compreensão do funcionamento do comando if, deve-se entender que, o que estiver dentro das chaves só será executado se a condição de acionamento for <strong>verdadeira</strong>, caso o contrário (condição for falsa), o que estiver dentro das chaves será desconsiderado.
+            </p> 
+            <br>
+            <p>
+                Exemplo na prática: 
+            </p>
+            <div class="alinhamento">
+                <img src="imagens/exemplo-c.png" alt="">
+            </div>
+
+            <h2>Explicação</h2>
+            <p>
+                Esse código escreverá na tela “Verdadeiro” se o usuário escrever o número 1. 
+            </p>
+            <div class="alinhamento">
+                <img src="imagens/compilador-c.png" alt="Imagem do resultado do exercício.">
+            </div>
+        </div>
+
+        <div class="else conceito">
+            <h1>Incluindo o Else</h1>
+            <p>
+                Junto do comando IF podemos utilizar o comando <strong>else</strong>, que executará algum comando dentro de suas chaves caso a condição de ativação do comando if for <strong>falsa</strong>. 
+            </p>
+
+            <p>
+                Exemplo: <br> 
+
+                If(condição de ativação){ <br>
+                    //Comando que será executado se a condição for verdadeira <br>
+                }else{ <br>
+                    //Comando que será executado se a condição for falsa <br>
+                } 
+            </p>
+            <br>
+            <p>
+                Exemplo na prática: 
+            </p>
+
+            <div class="alinhamento">
+                <img src="imagens/exemplo-else.png" alt="Imagem do código em C usando else na lógica.">
+            </div>
+
+            <h2>Explicação</h2>
+            <p>
+                O código está pedindo para o usuário digitar o número 1, porém agora possui o tratamento de condicional falsa, como no exemplo a seguir, o usuário digita outro número e veja o resultado: 
+            </p>
+
+            <div class="alinhamento">
+                <img src="imagens/compilador-else.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="objetivo">
+            <p>Site desenvolvido para cunho acadêmico, sem fins lucrativos.</p>
+        </div>
+
+        <div class="equipe">
+            <h3>Participantes:</h3>
+            <p>Fernando Neto, Kevin Laurentino, Lucas Oliveira, Thomas Pruner e Lais Giese.</p>
+        </div>
+    </footer>
+</body>
+</html>
